@@ -1,0 +1,62 @@
+/* Éléments communs à l'ensemble des pages
+- body : centre la page sur */
+
+body
+{
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+header
+{
+	position: static;
+	display: block;
+	border: 1px solid black;
+	height: 100px;
+	background-color: #7595b9;
+	margin-bottom: 1%;
+}
+
+nav
+{
+	position: relative;
+	float: right;
+	margin: 1%;
+}
+
+.menu
+{
+	display: inline-block;
+}
+
+.recherche
+{
+	float: right;
+	margin: 1%;
+}
+
+.logo
+{
+	position: relative;
+	float: left;
+	height : 100%;
+}
+
+.pos
+{
+	position: relative;
+	float: right;
+	height: 100%;
+	padding: auto;
+}
+footer
+{
+	position: static;
+	display: block;
+	text-align: center;
+	border: 1px solid black;
+	height: 30px;
+	background-color: #7595b9;
+	margin-top: 1%;
+}

@@ -3,11 +3,14 @@
 
 body
 {
-	width: 90%;
+	min-width: 90%;
+	max-width: 90%;
+	height: auto;
 	margin-left: 5%;
 	margin-right: 5%;
 }
 
+/* En tête du site web */
 header
 {
 	position: static;
@@ -18,6 +21,19 @@ header
 	margin-bottom: 1%;
 }
 
+/* Pied de page du site web */
+footer
+{
+	position: static;
+	display: block;
+	text-align: center;
+	border: 1px solid black;
+	height: 30px;
+	background-color: #7595b9;
+	margin-top: 1%;
+}
+
+/* Menu de navigation : Métiers, Interviews, Formations, Profils */
 nav
 {
 	position: relative;
@@ -30,19 +46,6 @@ nav
 	display: inline-block;
 }
 
-.recherche
-{
-	float: right;
-	margin: 1%;
-}
-
-.logo
-{
-	position: relative;
-	float: left;
-	height : 100%;
-}
-
 .pos
 {
 	position: relative;
@@ -50,13 +53,98 @@ nav
 	height: 100%;
 	padding: auto;
 }
-footer
+
+/* Élémént de saisie de données, en haut à droite de la page */
+.recherche
 {
-	position: static;
-	display: block;
+	float: right;
+	margin: 1%;
+}
+
+/* Logo du site web, en haut à gauche de la page */
+.logo
+{
+	position: relative;
+	float: left;
+	height : 100%;
+}
+
+/* Disposition du fil d'Ariane */
+.ariane
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	display: inline-block;
 	text-align: center;
 	border: 1px solid black;
-	height: 30px;
-	background-color: #7595b9;
-	margin-top: 1%;
+	margin: 1%;
+	padding: 0.5%;
+}
+
+/* Éléments spécifiques à la page d'accueil du site 
+ * situé dans /home.html */
+
+/* Bloc d'introduction, premier élément de la page */
+ .introduction
+ {
+ 	display: inline-block;
+	border: 1px solid black;
+	width: 90%;
+	padding: 5px;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 3px;
+	text-align: center;
+ }
+
+/* Bloc de présentation des métiers, interviews, formations */
+.principal
+{
+	display: inline-block;
+	border: 1px solid black;
+	width: 90%;
+	padding: 5px;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 3px;
+}
+
+.elementpr
+{
+	display: inline-block;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+
+.format_img
+{
+	position: relative;
+	width: 130px;
+	height: 130px;
+}
+
+/* Bloc de présentation des différents profils de visiteurs */
+.profils
+{
+	display: inline-block;
+	border: 1px solid black;
+	width: 90%;
+	padding: 5px;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 3px;
+}
+
+.elprofil
+{
+	display: inline-block;
+	padding-left: 16.5%;
+	padding-right: 16.5%;
+}
+
+.format_img_pro
+{
+	position: relative;
+	width: 130px;
+	height: 130px;
 }

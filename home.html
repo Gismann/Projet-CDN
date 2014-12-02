@@ -7,6 +7,10 @@
 
   </head>
     <body>
+    <!-- Renvoi en haut de page -->
+    <p id="top"> </p>
+    <!-- Fin du renvoi en haut de page -->
+
     <!-- Début de l'entête : position fixe en haut de page -->
      <header>
          <a href="home.html"><img src="http://www.braserox.fr/sites/default/files/img/inf2.jpg" alt="Page d'accueil" class="logo"></a>
@@ -25,24 +29,55 @@
     <!-- Fin de l'entête -->
 
     <!-- Début du fil d'Ariane -->
-    <a href="./home.html">Accueil</a>
+    <a class="ariane" href="./home.html">Accueil</a>
     <!-- Fin du fil d'Ariane -->
 
-    <!-- Blocs de présentation des métiers -->
-    <div><a href="#">Introduction présentation</a> 
+    <!-- Introduction sur la page d'accueil du site web -->
+    <div class="introduction"><a href="#">Introduction présentation</a> 
        <p>Bienvenue sur ORINFO le guide de l’orientation intuitive dans le domaine de l'informatique. 
    	 Nous vous proposons un panel de fiches métiers ainsi que des interviews de professionnels.
    	 Cela vous permettra de vous aiguiller sur votre futur parcours scolaire ou professionnel.
     	 Grâce à ce site vous serez informés des différentes branches existantes dans l'ensemble des métiers de l'informatique.</p>
     </div>
-    <div><a href="./content/metiers.html">Métiers</a></div>
-    <div><a href="./content/interview.html">Interviews</a></div>
-    <div><a href="./content/formations.html">Formations</a></div>
+    <!-- Fin de l'introduction d'accueil -->
+
+    <!-- Bloc de présentation du contenu inédit sur trois sujets
+    - Métiers
+    - Interviews 
+    - Formations -->
+    <div class="principal">
+        <div class="elementpr">
+            <a href="./content/metiers.html">
+                <img class="format_img" src="./images/felix.jpg" alt="Métiers">
+            </a>
+        </div>
+        <div class="elementpr">
+            <a href="./content/interview.html">
+                <img class="format_img" src="./images/felix.jpg"  alt="Interviews">
+            </a>
+        </div>
+        <div class="elementpr">
+            <a href="./content/formations.html">
+                <img class="format_img" src="./images/felix.jpg" alt="Formations">
+            </a>
+        </div>
+    </div>
     <!-- Fin de la présentation des métiers -->
 
-    <!-- Rubriques spécifiques s'adressant aux utilisateurs -->
-    <div> <a href="./profile/profiletudiant.html">Je suis étudiant</a></div>
-    <div> <a href="./profile/profilepro.html">Je suis un professionnel</a></div>
+    <!-- Rubriques spécifiques s'adressant aux utilisateurs :
+    Suivant le profil de l'utilisateurs, en séléctionnant sont profil,
+    il sera redirigé vers le contenu adéquat -->
+    <div class="profils">
+        <div class="elprofil">
+            <a href="./profile/profiletudiant.html">  
+                <img class="format_img_pro" src="./images/felix.jpg" alt="Je suis étudiant">
+            </a>
+        </div>
+        <div class="elprofil">
+            <a href="./profile/profilepro.html">  
+                <img class="format_img_pro" src="./images/felix.jpg" alt="Je suis professionnel">
+            </a></div>
+    </div>
     <!-- Fin des rubriques s'adressant aux utilisateurs -->
 
     <!-- Début du pied de page -->
@@ -50,11 +85,9 @@
         <a href="mailto:contact@example.org">Contact</a>
         <a href="./utils/quisommesnous.html">Qui sommes nous ?</a>
         <a href="./utils/plandusite.html">Plan du site</a>
-        <a href="">Haut de page</a>
+        <a href="#top">Haut de page</a>
     </footer>
     <!-- Fin du pied de page -->
 
     </body>
 </html>
-
-

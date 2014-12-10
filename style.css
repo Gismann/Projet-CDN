@@ -15,7 +15,7 @@ header
 	position: static;
 	display: block;
 	height: 100px;
-	background-color: #7595b9;
+	background-color: #696969;
 	margin-bottom: 1%;
 }
 
@@ -27,8 +27,14 @@ footer
 	display: block;
 	text-align: center;
 	height: 30px;
-	background-color: #7595b9;
+	background-color: #696969;
 	margin-top: 1%;
+}
+
+.elfooter
+{
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 /* Menu de navigation : Métiers, Interviews, Formations, Profils */
@@ -42,6 +48,7 @@ nav
 .menu
 {
 	display: inline-block;
+    padding-right: 10px;
 }
 
 .pos
@@ -144,3 +151,30 @@ nav
 	width: 130px;
 	height: 130px;
 }
+
+/* Gestion des couleurs des liens HTML */
+a:link 
+{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:visited
+{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+a:active
+{
+    text-decoration: underline;
+}
+
+/* Gestion alternative des couleurs sur certains liens */

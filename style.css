@@ -29,12 +29,16 @@ footer
 	height: 30px;
 	background-color: #696969;
 	margin-top: 1%;
+    height: 2em;
 }
 
 .elfooter
 {
+    padding-top: auto;
+    padding-bottom: auto;
     padding-right: 10px;
     padding-left: 10px;
+    line-height: 2em;
 }
 
 /* Menu de navigation : Métiers, Interviews, Formations, Profils */

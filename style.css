@@ -11,12 +11,15 @@ body
 /* Couleur des en têtes et pieds de page */
 .colorheadfoot
 {
-    background-color: #696969;
+    background-color: #CECECE;
 }
+
+/* Ombre de header / footer */
 
 /* En tête du site web */
 header
 {
+    box-shadow: 2px 2px 2px #000000;
     border-radius: 5px;
 	position: static;
 	display: block;
@@ -27,6 +30,7 @@ header
 /* Pied de page du site web */
 footer
 {
+    box-shadow: 2px 2px 2px #000000;
     border-radius: 5px;
 	position: static;
 	display: block;

@@ -11,9 +11,9 @@ body
 /* En tête du site web */
 header
 {
+    border-radius: 5px;
 	position: static;
 	display: block;
-	border: 1px solid black;
 	height: 100px;
 	background-color: #7595b9;
 	margin-bottom: 1%;
@@ -22,10 +22,10 @@ header
 /* Pied de page du site web */
 footer
 {
+    border-radius: 5px;
 	position: static;
 	display: block;
 	text-align: center;
-	border: 1px solid black;
 	height: 30px;
 	background-color: #7595b9;
 	margin-top: 1%;
@@ -70,7 +70,8 @@ nav
 /* Disposition du fil d'Ariane */
 .ariane
 {
-	margin-top: 5px;
+    border-radius: 10px;
+    margin-top: 5px;
 	margin-bottom: 5px;
 	display: inline-block;
 	text-align: center;
@@ -86,7 +87,6 @@ nav
  .introduction
  {
  	display: inline-block;
-	border: 1px solid black;
 	width: 90%;
 	padding: 5px;
 	margin-left: 5%;
@@ -99,7 +99,6 @@ nav
 .principal
 {
 	display: inline-block;
-	border: 1px solid black;
 	width: 90%;
 	padding: 5px;
 	margin-left: 5%;
@@ -125,7 +124,6 @@ nav
 .profils
 {
 	display: inline-block;
-	border: 1px solid black;
 	width: 90%;
 	padding: 5px;
 	margin-left: 5%;
